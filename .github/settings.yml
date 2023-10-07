@@ -1,0 +1,17 @@
+# These settings are synced to GitHub by https://probot.github.io/apps/settings/
+# Reference documentation: https://github.com/apps/settings
+
+repository:
+
+  # Repository metadata
+  description: Fork of the Compute Freely website, served via GitHub Pages
+  homepage: https://waldyrious.github.io/computefreely
+  topics: linux
+
+  # PR merge strategies
+  allow_squash_merge: false
+  allow_merge_commit: true
+  allow_rebase_merge: false
+
+  # Automatic deletion of branches on merge
+  delete_branch_on_merge: true
