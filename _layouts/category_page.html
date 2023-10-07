@@ -7,7 +7,7 @@ layout: default
 	<div class="row {{ page.row }}">
 		<a href="{{ site.baseurl }}">Home</a>
 		<span class="chevron">&rsaquo;</span>
-		<a href="{{ site.dirs.categories }}">Categories</a>
+		<a href="{{ site.baseurl }}{{ site.dirs.categories }}">Categories</a>
 		<span class="chevron">&rsaquo;</span>
 		<span>{{ page.title }}</span>
 	</div>
@@ -17,8 +17,8 @@ layout: default
 <!-- categories -->
 <section class="cards">
 {% for post in site.posts %}{% for category in post.categories %}{% if category == page.category %}
-	<a href="{{ post.url }}" class="card small">
-		<img src="{{ site.dirs.logos }}{{ post.logo }}.svg">
+	<a href="{{ site.baseurl }}{{ post.url }}" class="card small">
+		<img src="{{ site.baseurl }}{{ site.dirs.logos }}{{ post.logo }}.svg">
 		<div class="card-text">
 			<span>{{ post.title }}</span>
 			<small class="category {{ post.category }}">{{ post.category }}</small>

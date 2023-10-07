@@ -34,7 +34,7 @@ title: "Free your computer. Use Linux."
 	<section class="text-center">
 		<h3>Freedom to Choose</h3>
 		<p>There is a virtually endless number of Free and Open Source Software-based operating system, each with its own philosophy and purpose, look and feel, and out-of-the-box experience. This site distills the hundreds available into a curated selection, ranging from the beginner-friendly to the super technical.</p>
-		<a class="button" href="/about">Read More »</a>
+		<a class="button" href="{{ site.baseurl }}/about">Read More »</a>
 	</section>
 </div>
 
@@ -45,8 +45,8 @@ title: "Free your computer. Use Linux."
 		<!-- distro list -->
 		<div id="distro-list" class="cards">
 		{% for post in site.posts %}
-			<a href="{{ post.url }}" class="card">
-				<img src="{{ site.dirs.logos }}{{ post.logo }}.svg">
+			<a href="{{ site.baseurl }}{{ post.url }}" class="card">
+				<img src="{{ site.baseurl }}{{ site.dirs.logos }}{{ post.logo }}.svg">
 				<div class="card-text">
 					<span>{{ post.title }}</span>
 					<small class="category {{ post.category }}">{{ post.category }}</small>

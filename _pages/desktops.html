@@ -24,8 +24,8 @@ permalink: /desktops/
 		<p>Some of the following are popular desktop environments used by Linux distributions showcased on this site.</p>
 		<div class="cards text-left">
 		{% for page in site.desktops %}
-			<a href="{{ page.url }}" class="card small">
-				{% if page.logo %}<img class="logo" src="{{ site.dirs.logos }}{{ page.logo }}.svg">{% else %}<img class="logo" src="{{ site.dirs.logos }}no-logo.svg">{% endif %}
+			<a href="{{ site.baseurl }}{{ page.url }}" class="card small">
+				{% if page.logo %}<img class="logo" src="{{ site.baseurl }}{{ site.dirs.logos }}{{ page.logo }}.svg">{% else %}<img class="logo" src="{{ site.baseurl }}{{ site.dirs.logos }}no-logo.svg">{% endif %}
 				<div class="card-text">
 					<span>{{ page.title }}</span>
 					<small class="read-more">Read more »</small>

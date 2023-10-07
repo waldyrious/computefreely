@@ -5,8 +5,8 @@ layout: page
 <!-- tagged posts -->
 <section class="cards">
 {% for post in site.posts %}{% for tag in post.tags %}{% if tag == page.tag %}
-	<a href="{{ post.url }}" class="card small">
-		<img src="{{ site.dirs.logos }}{{ post.logo }}.svg">
+	<a href="{{ site.baseurl }}{{ post.url }}" class="card small">
+		<img src="{{ site.baseurl }}{{ site.dirs.logos }}{{ post.logo }}.svg">
 		<div class="card-text">
 			<span>{{ post.title }}</span>
 			<small class="category {{ post.category }}">{{ post.category }}</small>
@@ -14,5 +14,5 @@ layout: page
 		</div>
 	</a>
 {% endif %}{% endfor %}{% endfor %}
-<p><a class="button center" href="{{ site.dirs.tags }}">View all tags</a></p>
+<p><a class="button center" href="{{ site.baseurl }}{{ site.dirs.tags }}">View all tags</a></p>
 </section>

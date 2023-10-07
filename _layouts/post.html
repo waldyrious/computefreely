@@ -24,11 +24,11 @@ layout: minimal
 	<!-- Article -->
 	<article>
 		{%- if page.image -%}<!-- Screenshot -->
-		<img class="screenshot" src="{{ site.dirs.screenshots }}{{ page.image }}" alt="{{ page.caption }}" title="{{ page.title }}" onclick="openModal();">
+		<img class="screenshot" src="{{ site.baseurl }}{{ site.dirs.screenshots }}{{ page.image }}" alt="{{ page.caption }}" title="{{ page.title }}" onclick="openModal();">
 		{%- if page.caption -%}<p class="footnote text-right">{{ page.caption }}</p>{%- endif -%}{%- endif -%}
 		<!-- Title -->
 		<div class="page-title">
-			{%- if page.logo -%}<img class="logo" src="{{ site.dirs.logos }}{{ page.logo }}.svg">{%- endif -%}<h2>{{ page.title }}</h2>
+			{%- if page.logo -%}<img class="logo" src="{{ site.baseurl }}{{ site.dirs.logos }}{{ page.logo }}.svg">{%- endif -%}<h2>{{ page.title }}</h2>
 		</div>
 		<!-- Published -->
 		{%- if page.date -%}<small class="published">{%- if page.updated -%}Page last updated <span class="date">{{ page.updated | date_to_string }}{%- else -%}Page posted on <span class="date">{{ page.date | date_to_string }}{%- endif -%}&nbsp;</span>{%- if page.author -%} by <span class="author">{%- if page.updater -%}{{ page.updater }}{%- else -%}{{ page.author }}{%- endif -%}</span>{%- endif -%}</small>{%- endif -%}
@@ -41,9 +41,9 @@ layout: minimal
 		<!-- Tags -->
 		<ul class="tags">
 			<!-- Tags -->
-			{%- for tag in page.tags -%}<li><a href="{{ site.dirs.tags }}{{ tag }}">{{ tag | downcase }}</a></li>
+			{%- for tag in page.tags -%}<li><a href="{{ site.baseurl }}{{ site.dirs.tags }}{{ tag }}">{{ tag | downcase }}</a></li>
 			{%- endfor -%}<!-- Categories -->
-			{%- for category in page.category -%}<li><a href="{{ site.dirs.categories }}{{ category | downcase}}">{{ category | downcase }}</a></li>
+			{%- for category in page.category -%}<li><a href="{{ site.baseurl }}{{ site.dirs.categories }}{{ category | downcase}}">{{ category | downcase }}</a></li>
 			{%- endfor -%}
 		</ul>
 		{%- if page.notes -%}<!-- Notes -->
@@ -60,7 +60,7 @@ layout: minimal
 				</tr>{%- endif -%}
 				{%- if page.notes.desktops -%}<!-- Desktop --><tr>
 					<td>Desktop Environment(s)</td>
-					<td>{%- for desktop in page.notes.desktops -%}<a href="{{ site.dirs.desktops }}{{ desktop | downcase | slugify }}">{{ desktop }}</a>{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- endfor -%}</td>
+					<td>{%- for desktop in page.notes.desktops -%}<a href="{{ site.baseurl }}{{ site.dirs.desktops }}{{ desktop | downcase | slugify }}">{{ desktop }}</a>{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- endfor -%}</td>
 				</tr>{%- endif -%}
 				{%- if page.notes.install -%}<!-- Installation Type --><tr>
 					<td>Installation type</td>
@@ -68,7 +68,7 @@ layout: minimal
 				</tr>{%- endif -%}
 				{%- if page.notes.based-on -%}<!-- Based On --><tr>
 					<td>Based On</td>
-					<td>{%- for distro in page.notes.based-on -%}<a href="{{ site.dirs.distro }}{{ distro | downcase | slugify }}">{{ distro | capitalize }}</a>{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- endfor -%}</td>
+					<td>{%- for distro in page.notes.based-on -%}<a href="{{ site.baseurl }}{{ site.dirs.distro }}{{ distro | downcase | slugify }}">{{ distro | capitalize }}</a>{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- endfor -%}</td>
 				</tr>{%- endif -%}
 				{%- if page.notes.developers -%}<!-- Developer --><tr>
 					<td>Developer(s)</td>

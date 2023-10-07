@@ -12,8 +12,8 @@ title: Categories
 	<a name="{{ category_name | slugize }}"></a>
 	<div class="cards">
 	{% for post in site.categories[category_name] %}
-		<a href="{{ post.url }}" class="card small">
-			<img src="{{ site.dirs.logos }}{{ post.logo }}.svg">
+		<a href="{{ site.baseurl }}{{ post.url }}" class="card small">
+			<img src="{{ site.baseurl }}{{ site.dirs.logos }}{{ post.logo }}.svg">
 			<div class="card-text">
 				<span>{{ post.title }}</span>
 				<small class="category {{ post.category }}">{{ post.category }}</small>

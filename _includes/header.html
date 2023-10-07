@@ -18,10 +18,10 @@
 	<meta name="apple-mobile-web-app-title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
 
 	<!-- Icons -->
-	<link rel="shortcut icon" href='{{ site.favicon }}' type="image/x-icon" sizes="16x16">
-	<link rel="icon" type="image/png" href="{{ site.icon }}">
-	<link rel="image_src" href="{{ site.icon }}">
-	<link rel="apple-touch-icon" type="image/png" href="{{ site.icon }}">
+	<link rel="shortcut icon" href='{{ site.baseurl }}{{ site.favicon }}' type="image/x-icon" sizes="16x16">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}{{ site.icon }}">
+	<link rel="image_src" href="{{ site.baseurl }}{{ site.icon }}">
+	<link rel="apple-touch-icon" type="image/png" href="{{ site.baseurl }}{{ site.icon }}">
 
 	<!-- Twitter Optimization  -->
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
