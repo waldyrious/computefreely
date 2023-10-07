@@ -55,7 +55,6 @@ The `notes` section contains pertinent info about a distribution that show's up 
  - `install` whether the installation is "Graphical" or "Command Line" or "Live" **keep it to these**
  - `developers` name the primary developer or developers of the distribution and optionally provide a url
 
-
 ### Including image assets
 
 For a submission to be included you must also include a project's logo and a screenshot.
@@ -67,7 +66,7 @@ An acceptable screenshot must:
  - follow the name convention of the other included screenshots that is `desktop-<name>-<version>`
 
 An acceptable version of the project logo must:
- - be of the distibution icon, not the wordmark 
+ - be of the distibution icon, not the wordmark
  - be in SVG format, a PNG or other file format will not display
  - follow the name convention of the other included logos that is `distro-<name>`
  - be 200x200 pixels and the logo is at most 160x160 within that

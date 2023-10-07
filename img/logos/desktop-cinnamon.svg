@@ -24,9 +24,7 @@
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs12">
-	
 
-	
 		<sodipodi:namedview
    showgrid="false"
    borderopacity="1"
@@ -52,7 +50,7 @@
    inkscape:current-layer="Layer_1"
    id="namedview3440">
 		</sodipodi:namedview>
-	
+
 </defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"

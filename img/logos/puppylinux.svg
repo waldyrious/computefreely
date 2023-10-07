@@ -78,11 +78,11 @@
    offset="1"
    style="stop-color: rgb(0, 0, 0); stop-opacity: 1;"
    id="stop3232" />
-   
+
   </linearGradient><style
        type="text/css"
        id="style6">
-   
+
     .str0 {stroke:#1F1A17;stroke-width:0.2}
     .fil11 {fill:none}
     .fil12 {fill:#838281}
@@ -97,7 +97,7 @@
     .fil7 {fill:url(#id7)}
     .fil1 {fill:url(#id8)}
     .fil8 {fill:url(#id9)}
-   
+
   </style><linearGradient
        id="id0"
        gradientUnits="userSpaceOnUse"
@@ -105,7 +105,7 @@
        y1="88.3992"
        x2="-7.8656001"
        y2="24.4438">
-   
+
    <stop
    offset="0"
    style="stop-color: rgb(255, 255, 255); stop-opacity: 0.00884956;"
@@ -128,7 +128,7 @@
    id="stop2212"
    style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"
    offset="1" />
-   
+
   </linearGradient><linearGradient
        id="id6"
        gradientUnits="userSpaceOnUse"
@@ -143,7 +143,7 @@
    id="stop3190"
    style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"
    offset="1" />
-   
+
   </linearGradient><linearGradient
        id="id7"
        gradientUnits="userSpaceOnUse"
@@ -159,7 +159,7 @@
    offset="1"
    style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"
    id="stop32" />
-   
+
   </linearGradient><filter
        inkscape:collect="always"
        id="filter3680"

@@ -52,7 +52,6 @@ $reset_button_active_bg_color: mix($reset_button_bg_color, #000, 90%);
 	text-shadow: none;
 }
 
-
 // button class links
 %button,
 .button {
@@ -81,7 +80,7 @@ $reset_button_active_bg_color: mix($reset_button_bg_color, #000, 90%);
 
 		> g,
 		> path {
-			fill:$button_fg_color; 
+			fill:$button_fg_color;
 		}
 	}
 

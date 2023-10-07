@@ -119,7 +119,6 @@ $card_width:20%;
 	}
 }
 
-
 @media only screen and (max-width:900px) {
 	.cards {
 		a.card {
@@ -155,7 +154,6 @@ $card_width:20%;
 					padding:0;
 				}
 			}
-			
 
 			&.small {
 				width: calc(100% - 24px);
@@ -169,7 +167,6 @@ $card_width:20%;
 		}
 	}
 }
-
 
 @media only screen and (max-width:720px) {
 	.cards {

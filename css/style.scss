@@ -74,7 +74,7 @@ AUTHOR URI:http://samuelhewitt.com/
 	&:-ms-input-placeholder {@extend %placeholder-text;} /* Internet Explorer */
 }
 
-// html 
+// html
 html {
 	height: 100%;
 	margin:0;
@@ -240,14 +240,13 @@ pre {
 	word-wrap: break-word;
 	word-break: break-all;
 
-	// hide webkit scrollbar 
+	// hide webkit scrollbar
 	&::-webkit-scrollbar {display:none;width: 0 !important}
 	> code {
 		padding: 0;
 		border: none;
 	}
 }
-
 
 // small
 small {
@@ -561,7 +560,6 @@ article {
 @import 'custom/separator';
 @import 'custom/tags';
 @import 'custom/text';
-
 
 // media queries
 @media only screen and (max-width:848px) {
