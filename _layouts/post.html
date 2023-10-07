@@ -60,7 +60,7 @@ layout: minimal
 				</tr>{%- endif -%}
 				{%- if page.notes.desktops -%}<!-- Desktop --><tr>
 					<td>Desktop Environment(s)</td>
-					<td>{%- for desktop in page.notes.desktops -%}<a href="{{ site.baseurl }}{{ site.dirs.desktops }}{{ desktop | downcase | slugify }}">{{ desktop }}</a>{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- endfor -%}</td>
+					<td>{%- for desktop in page.notes.desktops -%}<a href="{{ site.baseurl }}{{ site.dirs.desktops }}{{ desktop | downcase | slugify }}">{{ desktop }}</a>{%- if forloop.last -%}{%- else -%}, {% endif -%}{%- endfor -%}</td>
 				</tr>{%- endif -%}
 				{%- if page.notes.install -%}<!-- Installation Type --><tr>
 					<td>Installation type</td>
@@ -68,11 +68,11 @@ layout: minimal
 				</tr>{%- endif -%}
 				{%- if page.notes.based-on -%}<!-- Based On --><tr>
 					<td>Based On</td>
-					<td>{%- for distro in page.notes.based-on -%}<a href="{{ site.baseurl }}{{ site.dirs.distro }}{{ distro | downcase | slugify }}">{{ distro | capitalize }}</a>{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- endfor -%}</td>
+					<td>{%- for distro in page.notes.based-on -%}<a href="{{ site.baseurl }}{{ site.dirs.distro }}{{ distro | downcase | slugify }}">{{ distro | capitalize }}</a>{%- if forloop.last -%}{%- else -%}, {% endif -%}{%- endfor -%}</td>
 				</tr>{%- endif -%}
 				{%- if page.notes.developers -%}<!-- Developer --><tr>
 					<td>Developer(s)</td>
-					<td>{%- for developer in page.notes.developers -%}{%- if developer.url -%}<a href="{{ developer.url }}" target="_blank">{{ developer.name }}</a>{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- else -%}{{ developer.name }}{%- if forloop.last -%}{%- else -%}, {%- endif -%}{%- endif -%}{%- endfor -%}</td>
+					<td>{%- for developer in page.notes.developers -%}{%- if developer.url -%}<a href="{{ developer.url }}" target="_blank">{{ developer.name }}</a>{%- if forloop.last -%}{%- else -%}, {% endif -%}{%- else -%}{{ developer.name }}{%- if forloop.last -%}{%- else -%}, {% endif -%}{%- endif -%}{%- endfor -%}</td>
 				</tr>{%- endif -%}
 			</tbody>
 		</table>{%- endif -%}
