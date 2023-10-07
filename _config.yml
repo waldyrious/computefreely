@@ -42,11 +42,11 @@ dirs:
 
 # GitHub
 github:
-  repo: https://github.com/snwh/computefreely/
-  issues: https://github.com/snwh/computefreely/issues
+  repo: https://github.com/waldyrious/computefreely/
+  issues: https://github.com/waldyrious/computefreely/issues
   edit:
-    desktops: https://github.com/snwh/computefreely/edit/master/_desktops/
-    posts: https://github.com/snwh/computefreely/edit/master/_posts/
+    desktops: https://github.com/waldyrious/computefreely/edit/master/_desktops/
+    posts: https://github.com/waldyrious/computefreely/edit/master/_posts/
 
 # Author
 author:
