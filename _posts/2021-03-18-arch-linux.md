@@ -13,7 +13,7 @@ notes:
   version: 2019.03.01
   install: command line
   developers:
-    - name: Arch Linux Devlopers
+    - name: Arch Linux Developers
       url: https://www.archlinux.org/people/developers/
 ---
 

@@ -19,4 +19,4 @@ notes:
       url: https://www.chakralinux.org/?contributors
 ---
 
-Chakra is an easy-to-use distribution based on Arch Linux, with an emphasis on the Plasma Desktop and the use of other KDE technologies
+Chakra is an easy-to-use distribution based on Arch Linux, with an emphasis on the Plasma Desktop and the use of other KDE technologies.

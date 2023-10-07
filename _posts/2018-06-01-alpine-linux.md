@@ -10,7 +10,7 @@ notes:
   homepage: http://alpinelinux.org/
   install: command line
   developers:
-    - name: Alpine Linux Devlopers
+    - name: Alpine Linux Developers
 ---
 
 Alpine Linux is an independent, general purpose Linux distribution for advanced users who designed to be smaller more resource efficient than typical GNU/Linux distributions&mdash;a minimal installation uses no more than 130 MB of storage!
