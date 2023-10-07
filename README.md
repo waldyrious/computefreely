@@ -12,7 +12,9 @@ Any unique source code is free software, licensed under the terms of the Apache 
 
 This site is built using the static site generator [Jekyll](https://jekyllrb.com/) (visit their site for info on how to set that up), but you will need to have it installed to hack on this site. Once you do so you can load the site with:
 
-	bundle exec jekyll serve
+```console
+bundle exec jekyll serve
+```
 
 ## Contributing
 
