@@ -51,15 +51,33 @@ ul.tags {
 			}
 
 			&:active {
-				box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1);
-				color: $tag_fg_color;
 				height: $tag_height;
 				margin-bottom: 1px;
 				top:0;
 				@include transition(0ms);
 			}
-		}
 
-		
+			&.category {
+				width: unset;
+				background: none;
+				border: 1px solid currentcolor;
+
+				&:focus,
+				&:hover {
+					&.beginner {
+						color: $green_color;
+						box-shadow: inset 0 -2px 0 0 $green_color;
+					}
+					&.intermediate {
+						color: $orange_color;
+						box-shadow: inset 0 -2px 0 0 $orange_color;
+					}
+					&.advanced {
+						color: $red_color;
+						box-shadow: inset 0 -2px 0 0 $red_color;
+					}
+				}
+			}
+		}
 	}
 }

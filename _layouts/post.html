@@ -43,7 +43,7 @@ layout: minimal
 			<!-- Tags -->
 			{%- for tag in page.tags -%}<li><a href="{{ site.baseurl }}{{ site.dirs.tags }}{{ tag }}">{{ tag | downcase }}</a></li>
 			{%- endfor -%}<!-- Categories -->
-			{%- for category in page.category -%}<li><a href="{{ site.baseurl }}{{ site.dirs.categories }}{{ category | downcase}}">{{ category | downcase }}</a></li>
+			{%- for category in page.category -%}<li><a class="category {{ category | downcase}}" href="{{ site.baseurl }}{{ site.dirs.categories }}{{ category | downcase}}">{{ category | downcase }}</a></li>
 			{%- endfor -%}
 		</ul>
 		{%- if page.notes -%}<!-- Notes -->
