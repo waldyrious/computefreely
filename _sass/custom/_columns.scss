@@ -3,7 +3,7 @@
 $column_margin: 12px;
 
 .col {
-	vertical-align:top;
+	vertical-align: top;
 	display: inline-block;
 	margin: $column_margin;
 
@@ -29,10 +29,10 @@ $column_margin: 12px;
 	}
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width: 720px) {
 	.col {
 		&.third,
 		&.half,
@@ -43,7 +43,7 @@ $column_margin: 12px;
 			width: 100%;
 			float: none;
 			margin: 12px 0;
-			&.left,&.right {float:none;}
+			&.left, &.right { float: none; }
 		}
 	}
 }

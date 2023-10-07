@@ -2,25 +2,25 @@
 
 // Footnote
 .footnote {
-	color:lighten($fg_color, 30%);
-	display:block;
-	font-family:$monospace;
-	font-size:$font_size * 0.8;
-	margin:12px auto;
-	width:100%;
+	color: lighten($fg_color, 30%);
+	display: block;
+	font-family: $monospace;
+	font-size: $font_size * 0.8;
+	margin: 12px auto;
+	width: 100%;
 	* {
 		color: inherit;
 		font: inherit;
 	}
-	a {color:$link_color;}
+	a { color: $link_color; }
 }
 
 // page title
-$page_title_size:50px;
+$page_title_size: 50px;
 
 .page-title {
-	display:inline-block;
-	width:100%;
+	display: inline-block;
+	width: 100%;
 	margin: 16px 0;
 	height: $page_title_size;
 	max-height: $page_title_size;
@@ -28,50 +28,50 @@ $page_title_size:50px;
 	> h2 {
 		margin: 0 12px;
 		width: auto;
-		display:inline-block;
-		vertical-align:bottom;
+		display: inline-block;
+		vertical-align: bottom;
 	}
 
 	> img {
-		display:inline-block;
+		display: inline-block;
 		height: $page_title_size - 10px;
-		margin:5px;
-		vertical-align:middle;
+		margin: 5px;
+		vertical-align: middle;
 	}
 }
 
 // category
 .category {
-	text-transform:uppercase;
-	font-family:$monospace;
-	color:inherit;
-	display:block;
+	text-transform: uppercase;
+	font-family: $monospace;
+	color: inherit;
+	display: block;
 	width: 100%;
-	&.beginner { color:$green_color;}
-	&.intermediate { color:$orange_color}
-	&.advanced { color:$red_color}
-	&.desktop { color:$blue_color}
+	&.beginner { color: $green_color; }
+	&.intermediate { color: $orange_color; }
+	&.advanced { color: $red_color; }
+	&.desktop { color: $blue_color; }
 }
 
 // Published
 .published {
 	margin: 12px 0;
-	color:lighten($fg_color, 30%);
-	display:block;
-	font-size:$font_size - 4px;
-	font-family:$monospace;
-	text-transform:uppercase;
-	width:100%;
+	color: lighten($fg_color, 30%);
+	display: block;
+	font-size: $font_size - 4px;
+	font-family: $monospace;
+	text-transform: uppercase;
+	width: 100%;
 
 	.date {
-		color:darken($fg_color, 20%);
+		color: darken($fg_color, 20%);
 	}
 	.author {
-		color:darken($fg_color, 20%);
+		color: darken($fg_color, 20%);
 	}
 
 	.version {
-		color:$link_color;
+		color: $link_color;
 	}
 }
 

@@ -7,15 +7,15 @@ $notes_width: $row_width - 300px;
 // Overall table style
 table.notes {
 	@extend %reset;
-	width:100%;
+	width: 100%;
 
 	// text styles
 	> tbody {
 		background-color: $notes_bg_color;
 		border-radius: 0 6px 6px 0;
-		border:1px solid rgba(0,0,0,0.08);
+		border: 1px solid rgba(0, 0, 0, 0.08);
 		border-left-width: 0;
-		box-shadow: -5px 0 0 0 $notes_accent_color, inset 0 1px 0 0 rgba(255,255,255,0.4),0 1px 2px 0 rgba(0,0,0,0.05);
+		box-shadow: -5px 0 0 0 $notes_accent_color, inset 0 1px 0 0 rgba(255, 255, 255, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 		display: inline-block;
 		font-family: $monospace;
 		font-size: $font-size - 2px;
@@ -36,8 +36,8 @@ table.notes {
 			background-color: transparent;
 			border-bottom: 1px dashed darken($notes_bg_color, 10%);
 
-			&:first-child {border-top:1px dashed darken($notes_bg_color, 10%);}
-			&:last-child {border:none;}
+			&:first-child { border-top: 1px dashed darken($notes_bg_color, 10%); }
+			&:last-child { border: none; }
 
 			> td {
 				border: none;
@@ -55,7 +55,7 @@ table.notes {
 					padding-left: 24px;
 
 					// add a separator
-					&:after {content: ":"}
+					&:after { content: ":"; }
 				}
 
 				&:nth-child(even) {
@@ -68,11 +68,11 @@ table.notes {
 	}
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
 	table.notes {
 		> tbody {
 			> tr > td {
-				> a {word-break: break-all;}// to break long urls
+				> a { word-break: break-all; }// to break long urls
 			}
 		}
 	}

@@ -48,7 +48,7 @@ $reset_button_active_bg_color: mix($reset_button_bg_color, #000, 90%);
 	font-size: $button_font_size;
 	line-height: $button_height;
 	text-align: center;
-	text-decoration:none;
+	text-decoration: none;
 	text-shadow: none;
 }
 
@@ -80,7 +80,7 @@ $reset_button_active_bg_color: mix($reset_button_bg_color, #000, 90%);
 
 		> g,
 		> path {
-			fill:$button_fg_color;
+			fill: $button_fg_color;
 		}
 	}
 
@@ -114,16 +114,16 @@ button {
 // coloured button
 %coloured-button {
 	@extend %button;
-	color:$base_color;
+	color: $base_color;
 
 	&:hover,
-	&:focus{
-		opacity:0.8;
+	&:focus {
+		opacity: 0.8;
 	}
 
 	&:active,
-	&:active:hover{
-		opacity:0.7;
+	&:active:hover {
+		opacity: 0.7;
 	}
 }
 
@@ -137,14 +137,14 @@ button {
 	// icon
 	> i {
 		width: 18px;
-		color:inherit;
+		color: inherit;
 		padding-right: 6px;
-		line-height:$button_height;
+		line-height: $button_height;
 	}
 
-	&.googleplus {background-color: #DD4B39;&:active{background-color:#DD4B39;}}
-	&.tweet {background-color: #55ACEE;&:active{background-color:#55ACEE;}}
-	&.facebook {background-color: #3B5998;&:active{background-color:#3B5998;}}
+	&.googleplus { background-color: #DD4B39; &:active { background-color: #DD4B39; } }
+	&.tweet { background-color: #55ACEE; &:active { background-color: #55ACEE; } }
+	&.facebook { background-color: #3B5998; &:active { background-color: #3B5998; } }
 }
 
 // suggested button
@@ -170,7 +170,7 @@ button {
 	}
 }
 // submit button
-input[type=submit]{
+input[type=submit] {
 	@extend %coloured-button;
 	background: $submit_button_bg_color;
 	color: $submit_button_fg_color;
@@ -219,7 +219,7 @@ input[type=reset] {
 
 // media queries
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
 	.button,
 	button {
 		display: block;
@@ -229,7 +229,7 @@ input[type=reset] {
 		margin: 16px auto;
 	}
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
 	.button,
 	button {
 		display: block;

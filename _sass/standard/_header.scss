@@ -7,23 +7,23 @@ $header_subtitle_font_size: 16px;
 // Header
 header {
 	background-color: $header_bg_color;
-	padding:32px 0;
+	padding: 32px 0;
 
 	a, span {
 		display: inline-block;
 		color: $header_fg_color;
-		vertical-align:middle;
+		vertical-align: middle;
 		white-space: wrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		text-shadow: 0 -1px darken($header_bg_color, 10%);
 		> * {
-			color:inherit;
+			color: inherit;
 		}
 	}
 
 	span {
-		width:100%;
+		width: 100%;
 		&.title {
 			font-size: $header_title_font_size;
 			line-height: $header_title_font_size * 2;
@@ -41,7 +41,7 @@ header {
 	}
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
 	header {
 		span {
 			&.title {

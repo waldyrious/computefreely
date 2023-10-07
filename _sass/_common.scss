@@ -16,13 +16,13 @@ $base_color: #fff;
 $brand_color: #0099ee;
 
 // primary colors
-$red_color:#ff2233;
-$orange_color:#ee8822;
-$yellow_color:#ffbb00;
-$green_color:#449911;
-$blue_color:#6655ff;
-$purple_color:#aa00ff;
-$pink_color:#ee0066;
+$red_color: #ff2233;
+$orange_color: #ee8822;
+$yellow_color: #ffbb00;
+$green_color: #449911;
+$blue_color: #6655ff;
+$purple_color: #aa00ff;
+$pink_color: #ee0066;
 
 // Link colors
 $link_color: $brand_color;
@@ -33,12 +33,12 @@ $selection_bg_color: $link_color;
 $selection_fg_color: $base_color;
 
 // Borders
-$border_color: rgba(0,0,0,0.1);
+$border_color: rgba(0, 0, 0, 0.1);
 $border_radius: 5px;
 
 // Row
 $row_width: 900px;
 
 // Shadows
-$text_shadow: 0 1px rgba(255,255,255,0.8);
-$text_shadow_dark: 0 -1px rgba(0,0,0,0.3);
+$text_shadow: 0 1px rgba(255, 255, 255, 0.8);
+$text_shadow_dark: 0 -1px rgba(0, 0, 0, 0.3);

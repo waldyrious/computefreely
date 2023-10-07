@@ -18,12 +18,12 @@ $footer_padding: 24px;
 // footer
 footer {
 	min-height: $footer_height + $footer_padding;
-	background-color:$footer_bg_color;
+	background-color: $footer_bg_color;
 	border-top: 1px solid $border_color;
-	display:inline-block;
+	display: inline-block;
 	font-size: $font_size - 2px;
 	padding-top: $footer_padding;
-	width:100%;
+	width: 100%;
 
 	* {
 		font-size: inherit;
@@ -31,15 +31,13 @@ footer {
 	}
 
 	span {
-		line-height:$font_size + 24px;
-		color:$footer_fg_color;
+		line-height: $font_size + 24px;
+		color: $footer_fg_color;
 		display: block;
 		b {
 			color: inherit;
 		}
 	}
-
-	a {}
 
 	ul {
 		text-align: center;
@@ -48,7 +46,7 @@ footer {
 		margin: 24px auto;
 
 		> li {
-			display:inline-block;
+			display: inline-block;
 			padding: 6px;
 			&::before {
 				content: "";
@@ -59,11 +57,11 @@ footer {
 }
 
 // MEDIA QUERIES
-@media only screen and (max-width:848px) {
+@media only screen and (max-width: 848px) {
 
 	footer {
 		span {
-			line-height:$font_size + 12px;
+			line-height: $font_size + 12px;
 			margin: 12px 0;
 		}
 	}

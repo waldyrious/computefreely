@@ -2,17 +2,17 @@
 
 // icons on pages
 span.icon {
-	display:block;
-	width:100%;
-	text-align:center;
+	display: block;
+	width: 100%;
+	text-align: center;
 	> i {
-		font-size:48px;
-		color:$brand_color;
+		font-size: 48px;
+		color: $brand_color;
 	}
 	&.large {
 		margin: 48px auto;
-		>img{display:block;height: 96px;width: 96px;}
-		>i{font-size: 96px;}
+		>img { display: block; height: 96px; width: 96px; }
+		>i { font-size: 96px; }
 	}
 }
 
@@ -23,17 +23,17 @@ img.screenshot {
 
 	// alt text styling
 	background-color: $base_color;
-	box-shadow:inset 0 0 0 1px $border_color;
-	color:$fg_color;
-	font-size:$font_size - 2px;
+	box-shadow: inset 0 0 0 1px $border_color;
+	color: $fg_color;
+	font-size: $font_size - 2px;
 	line-height: $font_size * 3;
 	text-align: center;
-	&:after{
+	&:after {
 		margin-top: -16px;
-		display:block;
+		display: block;
 		font-family: $monospace;
 		font-weight: bold;
-		font-size:$font_size + 2px;
+		font-size: $font_size + 2px;
 		line-height: $font_size * 4;
 		content: '[ Image Missing ]';
 	}
@@ -53,15 +53,15 @@ img.screenshot {
 	vertical-align: middle;
 
 	img {
-		display:inline-block;
+		display: inline-block;
 		height: 64px;
 		width: 64px;
 		margin: 12px;
 		&.arrow {
 			vertical-align: middle;
 			margin: 12px 0;
-			height:48px;
-			width:48px;
+			height: 48px;
+			width: 48px;
 		}
 
 		&.large {
@@ -72,14 +72,14 @@ img.screenshot {
 
 	a {
 		display: inline-block;
-		border:none;
+		border: none;
 		border-radius: 4px;
 		padding: 0;
 
 		&:hover {
 			background-color: transparentize($fg_color, 0.9);
-			transition:all 100ms;
-			-webkit-transition:all 100ms;
+			transition: all 100ms;
+			-webkit-transition: all 100ms;
 		}
 
 		&:active {
@@ -88,16 +88,16 @@ img.screenshot {
 	}
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
 	img.screenshot {
-		border-radius:2px;
+		border-radius: 2px;
 		border: none;
 		box-shadow: none;
 		margin: 0 auto;
 		width: 100%;
 		&:active,
-		&:hover{
-			border:none;
+		&:hover {
+			border: none;
 			box-shadow: none;
 		}
 	}

@@ -1,7 +1,7 @@
 // Infobars
 
-$infobar_bg_color:$base_color;
-$infobar_fg_color:mix($infobar_bg_color, black, 30%);
+$infobar_bg_color: $base_color;
+$infobar_fg_color: mix($infobar_bg_color, black, 30%);
 $infobar_border_radius: 5px;
 $infobar_font_size: $font_size - 2px;
 $infobar_height: 56px;
@@ -14,16 +14,16 @@ $error_color: lighten($red_color, 10%);
 .infobar {
 	background-color: $infobar_bg_color;
 	border-radius: $infobar_border_radius;
-	color:$infobar_fg_color;
+	color: $infobar_fg_color;
 	display: inline-block;
-	font-family:$monospace;
-	font-size:$infobar_font_size;
+	font-family: $monospace;
+	font-size: $infobar_font_size;
 	margin: 12px 10%;
 	padding: 6px 12px;
 	text-align: center;
 	width: calc(80% - 24px);
 	z-index: 10;
-	border:1px solid $border_color;
+	border: 1px solid $border_color;
 
 	* {
 		font-family: inherit;
@@ -41,13 +41,13 @@ $error_color: lighten($red_color, 10%);
 		margin: 0;
 		border-radius: 0;
 		padding: 12px 0;
-		box-shadow:none;
-		border-top:1px solid $border_color;
-		border-bottom:1px solid $border_color;
+		box-shadow: none;
+		border-top: 1px solid $border_color;
+		border-bottom: 1px solid $border_color;
 
 		* {
-			padding:0;
-			margin:0;
+			padding: 0;
+			margin: 0;
 		}
 	}
 
@@ -57,36 +57,36 @@ $error_color: lighten($red_color, 10%);
 	}
 
 	a {
-		font-family:inherit;
-		font-size:inherit;
-		font-weight:inherit;
-		color:$link_color;
+		font-family: inherit;
+		font-size: inherit;
+		font-weight: inherit;
+		color: $link_color;
 	}
 
 	&.coloured {
-		background-color:inherit;
+		background-color: inherit;
 		font-weight: bold;
 		border: none;
-		text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
-		span a {color:inherit;}
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+		span a { color: inherit; }
 		&.error {
-			color:$base_color;
+			color: $base_color;
 			background-color: $error_color;
 		}
 		&.info {
-			color:$base_color;
+			color: $base_color;
 			background-color: $info_color;
 		}
-		&.warning{
+		&.warning {
 			color: $base_color;
 			background-color: $warning_color;
 		}
 	}
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
 	.infobar {
 		margin: 12px 0;
-		width:calc(100% - 24px);
+		width: calc(100% - 24px);
 	}
 }

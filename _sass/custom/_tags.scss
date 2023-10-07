@@ -6,38 +6,38 @@ $tag_fg_color: $base_color;
 
 ul.tags {
 	margin: 12px auto;
-	list-style:none;
+	list-style: none;
 
 	li {
-		display:inline-block;
-		padding:0;
+		display: inline-block;
+		padding: 0;
 		margin: 4px 0;
 
-		a,span {font:inherit;}
+		a, span { font: inherit; }
 
 		> a {
 			background-color: $tag_bg_color;
-			border-radius:3px;
-			box-shadow:none;
+			border-radius: 3px;
+			box-shadow: none;
 			color: $tag_fg_color;
-			display:block;
+			display: block;
 			font-size: $font_size - 2px;
 			font-weight: 600;
 			height: $tag_height;
-			line-height:$tag_height + 1px;
+			line-height: $tag_height + 1px;
 			margin: 2px;
 			opacity: 1.0;
 			outline: none;
 			padding: 4px 6px;
-			position:relative;
-			text-decoration:none;
-			text-shadow:none;
+			position: relative;
+			text-decoration: none;
+			text-shadow: none;
 			text-transform: uppercase;
 			@include transition(0ms);
 
 			> span {
 				color: darken($tag_bg_color, 20%);
-				margin-left:6px;
+				margin-left: 6px;
 			}
 
 			&:focus,
@@ -53,7 +53,7 @@ ul.tags {
 			&:active {
 				height: $tag_height;
 				margin-bottom: 1px;
-				top:0;
+				top: 0;
 				@include transition(0ms);
 			}
 

@@ -1,71 +1,71 @@
 // Cards
 
-$card_bg_color:$base_color;
-$card_fg_color:$fg_color;
+$card_bg_color: $base_color;
+$card_fg_color: $fg_color;
 $card_corner_radius: 5px;
-$card_font_size:24px;
-$card_image_size:100px;
-$card_height:64px;
-$card_width:20%;
+$card_font_size: 24px;
+$card_image_size: 100px;
+$card_height: 64px;
+$card_width: 20%;
 
 // Card container
 .cards {
 	display: inline-block;
 	margin: 12px auto;
 	width: 100%;
-	text-align:center;
+	text-align: center;
 
 	// Card
 	a.card {
 		background-color: $card_bg_color;
 		border-radius: $card_corner_radius;
-		box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 		color: $card_fg_color;
 		display: inline-block;
 		margin: 6px;
 		padding: 24px 0;
 		text-align: center;
-		text-decoration:none;
-		text-shadow:none;
-		width:calc(100% * 0.2 - 12px);
+		text-decoration: none;
+		text-shadow: none;
+		width: calc(100% * 0.2 - 12px);
 
 		.card-text {
-			vertical-align:middle;
+			vertical-align: middle;
 			word-break: break-all;
 			white-space: wrap;
 			overflow: hidden;
 
 			span {
 				margin: 16px 0;
-				display:block;
+				display: block;
 				text-align: center;
 				font-size: $card_font_size;
 			}
 
 			small {
-				&.read-more {color:$link_color;}
+				&.read-more { color: $link_color; }
 			}
 		}
 
 		img {
 			margin: 0 auto;
-			max-width:$card_image_size;
+			max-width: $card_image_size;
 		}
 
 		&:active,
-		&:active:hover{
-			box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.2),inset 0 0 0 1px rgba(0,0,0,0.15);
+		&:active:hover {
+			box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(0, 0, 0, 0.15);
 		}
 
 		&:focus {
-			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2),inset 0 0 0 1px $link_color;
+			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px $link_color;
 		}
 
 		&:hover {
-			box-shadow: 0 1px 2px 0 $link_color,0 0 0 1px $link_color;
+			box-shadow: 0 1px 2px 0 $link_color, 0 0 0 1px $link_color;
 		}
 
-		&.small{
+		&.small {
 			text-align: left;
 			display: inline-block;
 			padding: 6px;
@@ -76,21 +76,21 @@ $card_width:20%;
 			img {
 				margin: 8px;
 				display: inline-block;
-				width:$card_image_size - 20px;
-				height:$card_image_size - 20px;
+				width: $card_image_size - 20px;
+				height: $card_image_size - 20px;
 			}
 
 			.card-text {
 				// 100% - (image width + its padding)
 				width: calc(100% - (($card_image_size * 0.5) + 16px) - 12px);
 				margin: 8px 6px;
-				text-align:left;
-				display:inline-block;
+				text-align: left;
+				display: inline-block;
 
 				span {
-					text-align:left;
-					font-size:$card_font_size - 6px;
-					margin:4px 0;
+					text-align: left;
+					font-size: $card_font_size - 6px;
+					margin: 4px 0;
 					vertical-align: middle;
 				}
 
@@ -102,7 +102,7 @@ $card_width:20%;
 	}
 }
 
-@media only screen and (max-width:1120px) {
+@media only screen and (max-width: 1120px) {
 	.cards {
 		a.card {
 			width: calc(100% * 0.25 - 24px);
@@ -113,20 +113,20 @@ $card_width:20%;
 			width: calc(100% * 0.33 - 12px);
 			margin: 6px;
 			.card-text > span {
-				font-size:$card_font_size - 6px;
+				font-size: $card_font_size - 6px;
 			}
 		}
 	}
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width: 900px) {
 	.cards {
 		a.card {
 			display: inline-block;
 			float: none;
 			margin: 6px;
 			padding: 0;
-			text-align:left;
+			text-align: left;
 			width: calc(50% - 12px);
 
 			img {
@@ -138,20 +138,20 @@ $card_width:20%;
 			.card-text {
 				margin: 12px 0;
 				padding: 12px 0;
-				height:$card_image_size - 20px;
+				height: $card_image_size - 20px;
 				overflow: hidden;
-				text-align:left;
-				display:inline-block;
+				text-align: left;
+				display: inline-block;
 				span {
-					font-size:$card_font_size - 4px;
-					margin:0;
-					margin-bottom:4px;
+					font-size: $card_font_size - 4px;
+					margin: 0;
+					margin-bottom: 4px;
 					vertical-align: middle;
 					text-align: left;
-					height:$card_image_size * 0.25;
-					line-height:$card_image_size * 0.25;
-					display:inline-block;
-					padding:0;
+					height: $card_image_size * 0.25;
+					line-height: $card_image_size * 0.25;
+					display: inline-block;
+					padding: 0;
 				}
 			}
 
@@ -160,22 +160,22 @@ $card_width:20%;
 				>.card-text {
 					padding: 0;
 					margin: 4px 0;
-					height:$card_image_size - 20px;
-					> span {font-size:$card_font_size - 6px;}
+					height: $card_image_size - 20px;
+					> span { font-size: $card_font_size - 6px; }
 				}
 			}
 		}
 	}
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width: 720px) {
 	.cards {
 		a.card {
 			display: block;
 			float: none;
 			margin: 12px;
 			padding: 0;
-			text-align:left;
+			text-align: left;
 			width: calc(100% - 24px);
 
 			img {
@@ -187,8 +187,8 @@ $card_width:20%;
 			>.card-text {
 				padding: 0;
 				margin: 12px 0;
-				height:$card_image_size - 20px;
-				> span {font-size:$card_font_size - 6px;}
+				height: $card_image_size - 20px;
+				> span { font-size: $card_font_size - 6px; }
 			}
 
 			&.small {
