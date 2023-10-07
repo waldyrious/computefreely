@@ -1,0 +1,28 @@
+---
+layout: page
+permalink: /tags/
+title: Tags
+---
+
+{% for tag in site.tags %}
+<section class="text-center">
+	{% capture tag_name %}{{ tag | first }}{% endcapture %}
+	<div id="#{{ tag_name | slugize }}"></div>
+	<h3><a name="{{ tag_name | slugize }}" href="{{ site.baseurl }}{{ page.url }}#{{ tag_name | slugize }}">
+		{{ tag_name | capitalize }} Distros
+	</a></h3>
+
+	<div class="cards">
+	{% for post in site.tags[tag_name] %}
+		<a href="{{ site.baseurl }}{{ post.url }}" class="card small">
+			<img src="{{ site.baseurl }}{{ site.dirs.logos }}{{ post.logo }}.svg">
+			<div class="card-text">
+				<span>{{ post.title }}</span>
+				<small class="tag {{ post.tag }}">{{ post.tag }}</small>
+				<small class="read-more">Read more »</small>
+			</div>
+		</a>
+	{% endfor %}
+	</div>
+</section>
+{% endfor %}
