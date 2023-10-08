@@ -1,0 +1,1 @@
+If you have some familiarity with Linux systems these distributions are good jumping off points, but require a bit more work out-of-the-box to get set-up. Distributions in this category can be somewhat niche, come bundled with some more technical tools, or focus on a specific category of use.

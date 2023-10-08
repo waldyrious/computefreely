@@ -1,0 +1,1 @@
+These are distributions that aim for the widest possible audience. Built for use as desktop operating systems, these tend to focus on ease of use and are often fairly straightforward to use and don't require much prior knowledge about Linux to get going.

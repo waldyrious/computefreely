@@ -1,0 +1,1 @@
+These are distributions that are very niche or specialized and require a lot of prior knowledge about things like package management, navigating a terminal and overall familiarity with Linux systems. It's here where you will find yourself doing a lot of the configuration yourself and tailoring your system to your needs or even building one from scratch.
