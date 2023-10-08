@@ -73,7 +73,7 @@ title: "Free your computer. Use Linux."
 		searchInput: document.getElementById('search-input'),
 		resultsContainer: document.getElementById('results-container'),
 		json: '/search.json',
-		searchResultTemplate: '<a class="card small" href="{url}"><img src="{{ site.dirs.logos }}{logo}.svg"><div class="card-text"><span>{title}</span><small class="category {category}">{category}</small><small class="read-more">Read more »</small></div></a>',
+		searchResultTemplate: '<a class="card small" href="{url}"><img src="{{ site.baseurl }}{{ site.dirs.logos }}{logo}.svg"><div class="card-text"><span>{title}</span><small class="category {category}">{category}</small><small class="read-more">Read more »</small></div></a>',
 		noResultsText: '<div class="infobar">Sorry, no results for that search.</div>',
 		fuzzy: false,
 		exclude: ['Welcome']
