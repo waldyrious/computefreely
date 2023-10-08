@@ -78,7 +78,7 @@ layout: minimal
 		</table>{%- endif -%}
 		<!-- Content -->
 		{{ content }}
-		{%- if page.notes.homepage -%}<a href="{{ page.notes.homepage }}" class="button center" target="_blank">Learn More »</a>{%- endif -%}</article>
+		{%- if page.notes.homepage -%}<a href="{{ page.notes.homepage }}" class="button center" target="_blank">Learn More</a>{%- endif -%}</article>
 	<br>
 	<!-- Page Edit -->
 	<div class="footnote text-center"><i class="fas fa-exclamation-triangle"></i> Something missing, incorrect or out of date? <a href="{{ site.github.edit.posts }}{%- if page.updated -%}{{ page.updated | date: '%Y-%m-%d' }}{%- else -%}{{ page.date | date: '%Y-%m-%d' }}{%- endif -%}-{{ page.url | remove: site.dirs.distro }}.md" target="_blank">Edit this page</a> or <a href="{{ site.github.issues }}/new/?title=[Page%20Issue]%20{{ page.title }}" target="_blank">file an issue</a>.</div>
