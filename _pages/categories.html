@@ -5,10 +5,10 @@ title: Categories
 ---
 
 {% for category in site.categories %}
-<section class="text-center">
+<section>
 	{% capture category_name %}{{ category | first }}{% endcapture %}
 	<div id="#{{ category_name | slugize }}"></div>
-	<h3><a name="{{ category_name | slugize }}" href="{{ site.baseurl }}{{ page.url }}#{{ category_name | slugize }}">
+	<h3 class="text-center"><a name="{{ category_name | slugize }}" href="{{ site.baseurl }}{{ page.url }}#{{ category_name | slugize }}">
 		{{ category_name | capitalize }} Distros
 	</a></h3>
 	<p>{% include categories/{{ category_name | slugize }}.md %}</p>
