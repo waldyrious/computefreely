@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distro
 author: "Sam Hewitt"
 title: "Linux Mint"
 date: "2018-06-01"

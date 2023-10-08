@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distro
 author: Your Name
 title: "Distro Name"
 date: "YYYY-MM-DD HH:MM"

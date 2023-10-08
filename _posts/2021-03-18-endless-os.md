@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distro
 author: "Sam Hewitt"
 updater: "luke2m"
 title: "Endless OS"

@@ -11,7 +11,7 @@ For your convenience a template is included in the `_drafts` folder.
 Each post has "frontmatter" that contains metadata for the post and about the distribution in general that shows up on the individual pages for each. Here's an example from the post for Ubuntu.
 
 ```yaml
-layout: post
+layout: distro
 author: Sam Hewitt
 title: "Ubuntu"
 date: "2017-03-02"

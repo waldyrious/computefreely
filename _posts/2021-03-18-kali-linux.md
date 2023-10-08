@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distro
 author: "Sam Hewitt"
 title: "Kali Linux"
 date: "2019-05-26"
