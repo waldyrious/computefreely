@@ -21,6 +21,6 @@ notes:
       url: https://endlessos.org/
 ---
 
-Endless is a beginner-friendly distribution with an interface designed to "feel natural and intuitive", taking cues from mobile operating systems and presenting apps as a grid of icons right on main screen.
+Endless OS is a beginner-friendly distribution with an interface designed to "feel natural and intuitive", taking cues from mobile operating systems and presenting apps as a grid of icons right on the main screen. It's designed so that no Internet is required, but also works well on Internet-connected computers.
 
-Something unique to Endless is that it comes pre-loaded not just with plenty of desktop apps, but with a bunch of web services and applications so they're just one-click away. Even in their own software store, Endless treats web applications as equal to those of the desktop.
+Something unique to Endless OS is that it comes pre-loaded not just with plenty of desktop apps, but with a bunch of self-guided learning resources and easy access to web apps right in the App Center. It is also image-based, meanining it is more robust and reliable, especially when it comes to updates.
