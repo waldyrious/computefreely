@@ -1,9 +1,9 @@
 ---
 layout: desktop
 title: "MATE"
-logo: "desktop-mate"
+logo: "mate"
 tag: "mate"
-image: "desktop-mate.png"
+image: "mate.png"
 caption: "MATE desktop with the Caja file manager and panel menu open"
 category: [desktop]
 notes:

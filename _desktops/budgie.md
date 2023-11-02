@@ -1,7 +1,7 @@
 ---
 layout: desktop
 title: "Budgie"
-logo: "desktop-budgie"
+logo: "budgie"
 tag: "budgie"
 category: [desktop]
 notes:

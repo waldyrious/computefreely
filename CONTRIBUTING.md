@@ -15,8 +15,8 @@ layout: distro
 author: Sam Hewitt
 title: "Ubuntu"
 date: "2017-03-02"
-logo: "distro-ubuntu"
-image: "desktop-ubuntu-16.10.png"
+logo: "ubuntu"
+image: "ubuntu-16.10.png"
 caption: "ubuntu 16.10 desktop"
 tags: [desktop, server, beginner, gnome]
 notes:
@@ -64,13 +64,13 @@ An acceptable screenshot must:
 - be of a fresh installation, no user-modifications or changes
 - be of the desktop, do not have any windows, menus, etc. open
 - be of at least 720p resolution
-- follow the name convention of the other included screenshots that is `desktop-<name>-<version>`
+- follow the name convention of the other included screenshots, that is `<distro-name>-<version>.png`
 
 An acceptable version of the project logo must:
 
 - be of the distribution icon, not the wordmark
 - be in SVG format, a PNG or other file format will not display
-- follow the name convention of the other included logos that is `distro-<name>`
+- follow the name convention of the other included logos, that is `<distro-name>.svg`
 - be 200x200 pixels and the logo is at most 160x160 within that
 
 ## Updating An Existing Post

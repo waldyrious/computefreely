@@ -1,9 +1,9 @@
 ---
 layout: desktop
 title: "Xfce"
-logo: "desktop-xfce"
+logo: "xfce"
 tag: "xfce"
-image: "desktop-xfce.png"
+image: "xfce.png"
 caption: "The desktop of Xfce variant of Ubuntu, Xubuntu"
 category: [desktop]
 notes:

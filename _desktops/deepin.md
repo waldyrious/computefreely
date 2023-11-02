@@ -1,9 +1,9 @@
 ---
 layout: desktop
 title: "Deepin Desktop"
-logo: "desktop-deepin"
+logo: "deepin"
 tag: "deepin"
-image: "desktop-deepin.png"
+image: "deepin.png"
 caption: "Deepin Desktop on Fedora"
 category: [desktop]
 notes:

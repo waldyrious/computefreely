@@ -25,11 +25,11 @@ layout: minimal
 	<!-- Article -->
 	<article>
 		{% if page.image %}<!-- Screenshot -->
-		<img class="screenshot" src="{{ site.baseurl }}{{ site.dirs.screenshots }}{{ page.image }}" alt="{{ page.caption }}" title="{{ page.title }}" onclick="openModal();">
+		<img class="screenshot" src="{{ site.baseurl }}{{ site.dirs.screenshots }}desktops/{{ page.image }}" alt="{{ page.caption }}" title="{{ page.title }}" onclick="openModal();">
 		{% if page.caption%}<p class="footnote text-right">{{ page.caption }}</p>{% else %}{% endif %}{% else %}{% endif %}
 		<!-- Title -->
 		<div class="page-title">
-			{% if page.logo %}<img class="logo" src="{{ site.baseurl }}{{ site.dirs.logos }}{{ page.logo }}.svg">{% else %}{% endif %}<h2>{{ page.title }}</h2>
+			{% if page.logo %}<img class="logo" src="{{ site.baseurl }}{{ site.dirs.logos }}desktops/{{ page.logo }}.svg">{% else %}{% endif %}<h2>{{ page.title }}</h2>
 		</div>
 		{% if page.notes %}<!-- Notes -->
 		<table class="notes">
@@ -76,7 +76,7 @@ layout: minimal
 <div id="screenshotDialog" class="modal" onclick="closeModal()">
 	<span class="modal-close" onclick="closeModal()">&times;</span>
 	<div class="modal-content">
-		<img src="{{ site.baseurl }}{{ site.dirs.screenshots }}{{ page.image }}">
+		<img src="{{ site.baseurl }}{{ site.dirs.screenshots }}desktops/{{ page.image }}">
 	</div>
 </div>
 <script type="text/javascript">

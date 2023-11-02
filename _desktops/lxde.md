@@ -1,9 +1,9 @@
 ---
 layout: desktop
 title: "LXDE"
-logo: "desktop-lxde"
+logo: "lxde"
 tag: "lxde"
-image: "desktop-lxde.png"
+image: "lxde.png"
 caption: "The LXDE desktop on Lubuntu"
 category: [desktop]
 notes:

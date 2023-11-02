@@ -2,7 +2,7 @@
 layout: desktop
 title: "Pantheon"
 tag: "pantheon"
-image: "desktop-pantheon.png"
+image: "pantheon.png"
 caption: "Pantheon desktop on elementary OS 0.4"
 category: [desktop]
 notes:

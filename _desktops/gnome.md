@@ -1,9 +1,9 @@
 ---
 layout: desktop
 title: "GNOME"
-logo: "desktop-gnome"
+logo: "gnome"
 tag: "gnome"
-image: "desktop-gnome-3.28.jpg"
+image: "gnome-3.28.jpg"
 caption: "GNOME 3.28 Activities Overview"
 category: [desktop]
 notes:

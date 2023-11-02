@@ -1,9 +1,9 @@
 ---
 layout: desktop
 title: "KDE Plasma"
-logo: "desktop-kde-plasma"
+logo: "kde-plasma"
 tag: "kde-plasma"
-image: "desktop-kde-plasma-5.0.png"
+image: "kde-plasma-5.0.png"
 caption: "KDE Plasma Desktop"
 category: [desktop]
 notes:

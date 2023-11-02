@@ -1,9 +1,9 @@
 ---
 layout: desktop
 title: "Cinnamon"
-logo: "desktop-cinnamon"
+logo: "cinnamon"
 tag: "cinnamon"
-image: "desktop-cinnamon.jpg"
+image: "cinnamon.jpg"
 caption: "Cinnamon Desktop on Fedora"
 category: [desktop]
 notes:
