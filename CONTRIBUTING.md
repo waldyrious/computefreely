@@ -52,7 +52,7 @@ The `notes` section contains pertinent info about a distribution that show's up 
 - `version` is the current version at the time of publication
 - `based-on` if the distribution is based on another you include that here
 - `desktops` is a list of all default desktops arranged in an array, i.e. if a distribution provides multiple spins that are of different desktop environments you list those here
-- `install` whether the installation is "Graphical" or "Command Line" or "Live" **keep it to these**
+- `install` is the mode of installation — either "graphical", "command line" or "live"
 - `developers` name the primary developer or developers of the distribution and optionally provide a url
 
 ### Including image assets
