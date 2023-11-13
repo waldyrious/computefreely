@@ -10,7 +10,6 @@ tags: []
 notes:
   homepage: http://example.com/
   version: ""
-  based-on:
   desktops: []
   developers:
     - name: Distro Team or Individual

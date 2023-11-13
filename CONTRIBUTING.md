@@ -22,7 +22,7 @@ tags: [desktop, server, beginner, gnome]
 notes:
   homepage: https://ubuntu.com/
   version: "16.10"
-  based-on: debian
+  based-on: ["Debian"]
   desktops: [GNOME, Unity]
   install: graphical
   developers:
@@ -50,7 +50,7 @@ The `notes` section contains pertinent info about a distribution that show's up 
 
 - `homepage` is the complete url of a distribution's homepage
 - `version` is the current version at the time of publication
-- `based-on` if the distribution is based on another you include that here
+- `based-on` is a list of distributions that this one is based on (if any)
 - `desktops` is a list of all default desktops arranged in an array, i.e. if a distribution provides multiple spins that are of different desktop environments you list those here
 - `install` is the mode of installation — either "graphical", "command line" or "live"
 - `developers` name the primary developer or developers of the distribution and optionally provide a url
