@@ -12,18 +12,21 @@ Each post has "frontmatter" that contains metadata for the post and about the di
 
 ```yaml
 layout: distro
-author: Sam Hewitt
+author: "Sam Hewitt"
 title: "Ubuntu"
 date: "2017-03-02"
+updated: "2020-09-26"
+updater: "Tomasz Pocztowski"
 logo: "ubuntu"
-image: "ubuntu-16.10.png"
-caption: "ubuntu 16.10 desktop"
-tags: [desktop, server, beginner, gnome]
+image: "ubuntu-20.04.png"
+caption: "ubuntu 20.04 with the GNOME desktop"
+tags: [desktop, server]
+category: [beginner]
 notes:
   homepage: https://ubuntu.com/
-  version: "16.10"
+  version: "20.04"
   based-on: ["Debian"]
-  desktops: [GNOME, Unity]
+  desktops: [GNOME]
   install: graphical
   developers:
     - name: Canonical
