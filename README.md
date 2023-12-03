@@ -18,6 +18,6 @@ bundle exec jekyll serve
 
 ## Contributing
 
-Contributions are obviously welcome! If you would like to contribute to this project, please have [read this](/CONTRIBUTING.md) regarding contributions.
+Contributions are quite welcome! If you would like to contribute to this project, please [read the contribution guidelines](/CONTRIBUTING.md).
 
-Alternatively, if you would like to support development by making a donation you can do so [here](https://snwh.org/donate).
+Alternatively, if you would like to support development by making a donation, you can do so [here](https://snwh.org/donate).

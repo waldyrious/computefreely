@@ -1,11 +1,11 @@
 ## Distro Proposal
 
-If you're making a  distribution proposal, check off the following as you go to ensure it's good to go.
+If you're proposing the addition of a new distribution, check off the following as you go, to ensure the pull request is good to merge.
 
-- [ ] I've read the [instructions for contributing a post](/CONTRIBUTING.md)
-  - [ ] filled in the required metadata on my post
-  - [ ] included a plain desktop screenshot with no additional windows (if applicable)
-  - [ ] did not "give a review" when writing a post
+- [ ] I've read the [instructions for contributing an entry](/CONTRIBUTING.md)
+- [ ] I filled in the required metadata on my post
+- [ ] I included a plain desktop screenshot with no additional windows (if applicable)
+- [ ] I wrote the post in a neutral, objective language
 
 <!-- You can delete all of the above in your pull request -->
 
@@ -17,9 +17,9 @@ If you're making a  distribution proposal, check off the following as you go to 
 
 ## Page Metadata Updates
 
-If you're just updating information/metadata on a page make sure you do the following:.
+If you're just updating information/metadata on a page, make sure you do the following:
 
-- [ ] update the screenshot file to the latest version (if applicable) and please optimize the file size
-- [ ] update or add the `updated:` field to the post's frontmatter with the date in `YYYY-MM-DD` format
-- [ ] update or add the `updater:` field to the post's frontmatter with your name in quotations `"Your Name"`
-- [ ] rename the post's filename with the new date, e.g `YYYY-MM-DD-name`
+- [ ] add a screenshot file for the latest version (if applicable) and please optimize the file size
+- [ ] update or add the `updated:` field to the post's frontmatter with the date of your pull request, in `YYYY-MM-DD` format
+- [ ] update or add the `updater:` field to the post's frontmatter with your name in quotes: `"Your Name"`
+- [ ] rename the post's filename to match the `updated:` field, e.g `YYYY-MM-DD-name`
