@@ -13,8 +13,8 @@ notes:
   homepage: https://www.kali.org/
   version: "2021.1"
   based-on: ["Debian"]
-  install: live
   desktops: [GNOME, KDE Plasma, MATE, LXDE, Xfce]
+  install: live
   developers:
     - name: Offensive Security
       url: https://www.offensive-security.com/
