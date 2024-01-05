@@ -56,13 +56,13 @@ The first half of the frontmatter contains publishing and categorization informa
 
 #### Distribution metadata
 
-The `notes` section contains pertinent info about the distribution itself that shows up in the "Notes" section on each post.
+The `notes` section contains pertinent info about the distribution itself that shows up in the “Notes” section on each post.
 
 - `homepage` is the complete url of a distribution's homepage
 - `version` is the current version at the time of publication
 - `based-on` is a list of distributions that this one is based on (if any)
 - `desktops` is an array of all default desktop environments provided by the distribution
-- `install` is the mode of installation — either "graphical", "command line" or "live"
+- `install` is the mode of installation — either “graphical”, “command line” or “live”
 - `developers` is the name (and optionally an URL) of the primary developer or developers of the distribution
 
 ### Including image assets
