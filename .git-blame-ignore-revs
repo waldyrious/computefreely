@@ -1,0 +1,14 @@
+# Whitespace cleanup
+6a7d577dda11d0dd7276d2508ba317bc99a1455a
+
+# Remove executable bit
+89d072359e43e59a844a403f0b7e6de14ccbfedf
+
+# Apply markdownlint to .md files
+a95a16358a399e0f9e0862fccd3a37bc816de355
+
+# Fix typos, spacing and punctuation
+087fbebe84ae69dd35fbb13e9ff59c62cc7d474b
+
+# Cleanup CSS (mostly whitespace normalization)
+28f860d50be9bd1a933016452e75c18f2a29e918
